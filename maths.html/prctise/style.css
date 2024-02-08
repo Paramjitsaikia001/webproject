@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(224, 228, 21);
+    align-items: center;
+}
+ /* Style the table */
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+/* Style the table header cells */
+th {
+/* background-color: #4CAF50;
+color: white;
+text-align: left;
+padding: 10px; */
+border: 2px solid black;
+}
+td {
+/* background-color: #4CAF50;
+color: white;
+text-align: left;
+padding: 10px; */
+border: 2px solid black;
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+}
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
