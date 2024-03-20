@@ -95,37 +95,25 @@ body {
     margin: 0px 0px 0px 180px;
     font-size: 40px;
 }
-
-.class5 {
-    display: inline-block;
-    clear: both;
-    border: 2px solid rgb(180, 176, 176);
-    margin: 80px 20px 20px 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background-color: rgb(210, 245, 245);
-    box-shadow: 2px 10px 10px black;
+section{
+    display: grid;
+    grid-template-columns: auto auto ;
 }
 
-.class5 img {
-    padding: 20px;
+/* notes */
+.notes .class5{
+    position: relative;
+    text-align: center;
+    width: 13rem;
+    margin: 59px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+/* class 5 logo */
+.notes .class5 .class5img{
     border-radius: 50%;
-    width: 90px;
-}
-
-.class5 h2 {
-    margin: 0px 30px 10px 30px;
-}
-
-.class5 input {
-    margin: 0px 0px 20px 30px;
-    padding: 10px;
-    border-radius: 40px;
-}
-
-.class5 input:hover {
-    border: none;
-    background-color: aqua;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    width: 100px;
+    
 }
