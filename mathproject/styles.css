@@ -142,3 +142,28 @@ section {
     border-radius: 52px;
     cursor: pointer;
 }
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #8bc5c4;
+    height: 20vh;
+    align-items: center;
+}
+.socialmedia button {
+    border: none;
+    border-radius: 25px;
+    margin:10px 20px;
+}
+.socialmedia button .youtube{
+    width: 50px;
+    
+}
+.socialmedia button .twitter{
+    width: 35px;
+    
+}
+.socialmedia button .facebook{
+    width: 40px;
+    border-radius: 50%;
+}
